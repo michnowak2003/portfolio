@@ -1,0 +1,14 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__typing-text{
+        font: {
+            size: 5em;
+            weight: 700;
+        }
+        text-align: center;
+    }
+}

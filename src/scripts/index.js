@@ -1,4 +1,6 @@
 import '../styles/main.scss';
+import Typed from 'typed.js';
+
 
 const navbar = document.getElementById('navbar');
 const sidebar = document.getElementById('sidebar');
@@ -8,4 +10,11 @@ navbar.addEventListener('click', () => {
     sidebar.classList.toggle('sidebar--active');
 });
 
-console.log('webpack starterkit');
+
+//Typing Effect
+const typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 40,
+    showCursor: false
+});
+

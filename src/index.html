@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>webpack starterkit</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,14 +17,29 @@
         </span>
       </span>
     </button>
+
+    <ul class="sidebar" id='sidebar'>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </header>
 
-  <ul class="sidebar" id='sidebar'>
-    <li><a href="#">About me</a></li>
-    <li><a href="#">Skills</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
+  <main>
+    <div class='banner'>
+
+      <div id="typed-strings">
+        <p>Hi,</p>
+        <h1>I'm Michał Nowak </br> Front-End Developer</h1>
+      </div>
+      <span class='banner__typing-text' id="typed"></span>
+
+
+    </div>
+
+
+  </main>
 
   <script src="/src/scripts/nav.js"></script>
 </body>

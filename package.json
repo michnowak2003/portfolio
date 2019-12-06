@@ -49,6 +49,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "core-js": "^3.4.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "typed.js": "^2.0.11"
   }
 }
